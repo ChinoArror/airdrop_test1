@@ -189,3 +189,15 @@ const globalStyles = `
   button { padding: 8px 16px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
   button:hover { background: #0056b3; }
 `;
+
+// 新增：将 fetch 事件处理逻辑导出为 ES Module 格式
+export default {
+  fetch: handleRequest
+};
+
+
+
+
+
+
+
