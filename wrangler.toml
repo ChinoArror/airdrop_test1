@@ -1,0 +1,22 @@
+name = "multi-device-collab"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[r2_buckets]]
+binding = "FILE_STORAGE"
+bucket_name = "airdrop_test1_save"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "airdrop_test1"
+database_id = "c754267d-df17-4a84-9f78-8e34cd08d1ff"
+
+[vars]
+ADMIN_USERNAME = "admin"  # 可自定义管理员账户
+ADMIN_PASSWORD = "Mylover10"  # 部署前修改
+
+[triggers]
+crons = []
+
+[build]
+command = ""
