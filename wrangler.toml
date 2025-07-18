@@ -4,7 +4,7 @@ compatibility_date = "2025-01-01"
 
 [[r2_buckets]]
 binding = "FILE_STORAGE"
-bucket_name = "airdrop_test1_save"
+bucket_name = "airdrop-test1-save"
 
 [[d1_databases]]
 binding = "DB"
