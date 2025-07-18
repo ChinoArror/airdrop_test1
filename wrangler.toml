@@ -20,3 +20,8 @@ crons = []
 
 [build]
 command = ""
+
+compatibility_flags = ["nodejs_compat"]
+
+
+
