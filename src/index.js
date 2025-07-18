@@ -1,5 +1,5 @@
 // 依赖引入
-import { html, render } from 'https://esm.sh/htm/preact';
+import { html, render } from 'https://cdn.skypack.dev/htm/preact';
 import { createHash } from 'node:crypto';
 
 // 工具函数：密码哈希
